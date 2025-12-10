@@ -28,48 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btlogin = new System.Windows.Forms.Button();
+            this.btcadastro = new System.Windows.Forms.Button();
+            this.btsair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btlogin
             // 
-            this.button1.Location = new System.Drawing.Point(256, 287);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(225, 72);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "CADASTRO";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btlogin.Location = new System.Drawing.Point(361, 418);
+            this.btlogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btlogin.Name = "btlogin";
+            this.btlogin.Size = new System.Drawing.Size(300, 89);
+            this.btlogin.TabIndex = 0;
+            this.btlogin.Text = "LOGIN";
+            this.btlogin.UseVisualStyleBackColor = true;
+            this.btlogin.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btcadastro
             // 
-            this.button2.Location = new System.Drawing.Point(663, 17);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 34);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btcadastro.Location = new System.Drawing.Point(884, 21);
+            this.btcadastro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btcadastro.Name = "btcadastro";
+            this.btcadastro.Size = new System.Drawing.Size(153, 42);
+            this.btcadastro.TabIndex = 1;
+            this.btcadastro.Text = "CADASTRO";
+            this.btcadastro.UseVisualStyleBackColor = true;
+            this.btcadastro.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btsair
             // 
-            this.button3.Location = new System.Drawing.Point(12, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(80, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "SAIR";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btsair.Location = new System.Drawing.Point(13, 28);
+            this.btsair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btsair.Name = "btsair";
+            this.btsair.Size = new System.Drawing.Size(107, 28);
+            this.btsair.TabIndex = 2;
+            this.btsair.Text = "SAIR";
+            this.btsair.UseVisualStyleBackColor = true;
+            this.btsair.Click += new System.EventHandler(this.button3_Click);
             // 
             // Inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.btsair);
+            this.Controls.Add(this.btcadastro);
+            this.Controls.Add(this.btlogin);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Inicio";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -78,9 +83,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btlogin;
+        private System.Windows.Forms.Button btcadastro;
+        private System.Windows.Forms.Button btsair;
     }
 }
 

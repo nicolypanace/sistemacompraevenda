@@ -19,12 +19,19 @@ namespace sistema_de_compra_e_venda
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Login login = new Login();
+            login.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Cadastro cadastroForm = new Cadastro();
+            cadastroForm.ShowDialog();
         }
     }
 }
